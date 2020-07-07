@@ -1,0 +1,31 @@
+{
+  "fitbit": {
+    "appUUID": "d0f19f16-0e07-4ebf-b530-1f79430ca142",
+    "appType": "app",
+    "appDisplayName": "Panorama View",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Panorama View"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "^4.1.0"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.7.2"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
